@@ -5,9 +5,10 @@
     "compilerOptions": {
         "module": "commonjs",
         "target": "ES2015",
-        "sourceMap": true
+        "sourceMap": true,
+        "outDir" : "dist" // 컴파일 된 것들은 dist로
     },
     // 어떤 파일들이 컴파일 과정에 포함되는지
-    "include": ["index.ts"],
+    "include": ["src/**/*"],
     "exclude":["node_modules"]
 }
